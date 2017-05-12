@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : FJM10K.dra                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Nov 19 15:14:15 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/6-PCN-Project/2-3DÉãÏñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/all_lib
+    Name      = fjm10k.psm
+    User      = Administrator
+    Machine   = WZJ-PC
+
+
+Create symbol started.
+ 
+ Duplicate pin number 6. 
+ WARNING(SPMHA1-298): Create symbol duplicate pin numbers. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

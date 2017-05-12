@@ -1,0 +1,14 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+done.
+Layer conversion file: D:/LayoutPCB/padel_control_3D_PROE/zoomin_control/boardoutline-2_l.cnv
+DXF file: D:/LayoutPCB/padel_control_3D_PROE/zoomin_control/boardoutline-2.dxf
+BRD file: #Taaaaaq02396.tmp
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILS
+Design precision: 4
+dxf2a complete.

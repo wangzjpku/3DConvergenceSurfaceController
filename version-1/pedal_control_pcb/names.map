@@ -1,0 +1,10 @@
+# Name changes log file
+# Format: <PADS name>   ->   <Allegro name>
+
+
+QFP64/12/0.5   ->   QFP64_12_0_5
+XTAL-3.4MM-2P   ->   XTAL-3_4MM-2P
+XTAL\LP\SMD   ->   XTAL_LP_SMD
+VIA40OVL(NP)   ->   VIA40OVL_NP_
+SIP\5P   ->   SIP_5P
+SIP\2P   ->   SIP_2P

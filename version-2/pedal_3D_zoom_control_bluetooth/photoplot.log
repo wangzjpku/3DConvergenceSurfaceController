@@ -1,0 +1,314 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : test.brd                                      )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Nov 26 10:50:49 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < drill >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testdrill.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-734.00 -1543.00)
+           ... using undefined line width of 6.00
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00
+
+    WARNING: text composed 0 width line found at (-284.50 -887.50)
+           ... using undefined line width of 6.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     art-testdrill created with warnings
+
+
+================================================================
+     PROCESSING FILM < top-layer1 >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testtop-layer1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.02800                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  RECTANGLE  0.09842     x 0.04500       0.000 NO     DARK 
+
+     art-testtop-layer1 created.
+
+
+================================================================
+     PROCESSING FILM < smdtop >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testsmdtop.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  RECTANGLE  0.08000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.09842     x 0.04500       0.000 NO     DARK 
+
+     art-testsmdtop created.
+
+
+================================================================
+     PROCESSING FILM < smdbtm >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testsmdbtm.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  RECTANGLE  0.08000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.09842     x 0.04500       0.000 NO     DARK 
+
+     art-testsmdbtm created.
+
+
+================================================================
+     PROCESSING FILM < silktop >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testsilktop.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     art-testsilktop created.
+
+
+================================================================
+     PROCESSING FILM < silkbtm >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testsilkbtm.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     art-testsilkbtm created.
+
+
+================================================================
+     PROCESSING FILM < masktop >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testmasktop.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  RECTANGLE  0.08000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.09842     x 0.04500       0.000 NO     DARK 
+
+     art-testmasktop created.
+
+
+================================================================
+     PROCESSING FILM < maskbtm >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testmaskbtm.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  RECTANGLE  0.08000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.09842     x 0.04500       0.000 NO     DARK 
+
+     art-testmaskbtm created.
+
+
+================================================================
+     PROCESSING FILM < buttom-layer2 >
+     TO FILE < D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/art-testbuttom-layer2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.02800                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  RECTANGLE  0.08000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.09842     x 0.04500       0.000 NO     DARK 
+
+     art-testbuttom-layer2 created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        art-testdrill created with warnings
+        art-testtop-layer1 created.
+        art-testsmdtop created.
+        art-testsmdbtm created.
+        art-testsilktop created.
+        art-testsilkbtm created.
+        art-testmasktop created.
+        art-testmaskbtm created.
+        art-testbuttom-layer2 created.
+
+ ARTWORK finished

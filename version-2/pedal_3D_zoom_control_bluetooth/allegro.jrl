@@ -1,0 +1,20 @@
+\t (00:00:05) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:05)     Journal start - Thu Nov 27 13:08:17 2014
+\t (00:00:05)         Host=WZJ-PC User=Administrator Pid=8300 CPUs=4
+\t (00:00:05) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Database opened: D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/test.brd
+\t (00:00:06) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:06) trapsize 1574
+\i (00:00:06) trapsize 1528
+\i (00:00:06) trapsize 1582
+\i (00:00:06) trapsize 1605
+\i (00:00:06) trapsize 1656
+\i (00:00:06) trapsize 1656
+\i (00:00:07) generaledit 
+\i (00:00:29) open 
+\i (00:00:42) fillin "D:\5-ProjectForLindon\pcbSch_version2\pcb11.brd"
+\i (00:00:42) cd "D:\5-ProjectForLindon\pcbSch_version2"
+\t (00:00:42) Opening existing design...
+\i (00:00:42) trapsize 61
+\t (00:00:42)     Journal end - Thu Nov 27 13:08:55 2014

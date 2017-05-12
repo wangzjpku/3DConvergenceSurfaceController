@@ -1,0 +1,250 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Fri Jul 18 23:57:56 2014
+# 
+# Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+# Running on: wzj-pc, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name D:/LayoutPCB/pedal_control_pcb\pedal.dsn
+# Batch File Name: pasde.do
+# Did File Name: D:/LayoutPCB/pedal_control_pcb/specctra.did
+# Current time = Fri Jul 18 23:57:57 2014
+# PCB D:/LayoutPCB/pedal_control_pcb
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=5096.1300 ylo=2983.9000 xhi=6596.7800 yhi=5187.9900
+# Total 5 Images Consolidated.
+# Via VIA28C16 z=1, 2 xlo=-14.0000 ylo=-14.0000 xhi= 14.0000 yhi= 14.0000
+# Via VIA40 z=1, 2 xlo=-20.0000 ylo=-20.0000 xhi= 20.0000 yhi= 20.0000
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# <<WARNING:>> Potential non fixed positive shape alignment with the host CAD system exists.
+#              Allegro PCB Router does not perform any operations to remove or identify slivers and isolations.
+#              If the host CAD system performs such an operation, the user may experience unrouted
+#              or DRC alignment issues.
+#              The user must perform final unrouted/DRC validation within the host CAD system.
+# Wires Processed 66, Vias Processed 1
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 10, Images Processed 15, Padstacks Processed 7
+# Nets Processed 9, Net Terminals 37
+# PCB Area=2614683.218  EIC=3  Area/EIC=871561.073  SMDs=1
+# Total Pin Count: 42
+# Signal Connections Created 5
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 7.5000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 7.5000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_pcb\pedal.dsn
+# Nets 9 Connections 27 Unroutes 5
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 6, at vias 1 Total Vias 1
+# Percent Connected   55.56
+# Manhattan Length 22930.9550 Horizontal 8859.1120 Vertical 14071.8430
+# Routed Length 18676.6800 Horizontal 8137.4000 Vertical 10539.2800
+# Ratio Actual / Manhattan   0.8145
+# Unconnected Length 2510.0200 Horizontal 1251.1550 Vertical 1258.8650
+# Total Conflicts: 22 (Cross: 0, Clear: 22, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Loading Do File pasde.do ...
+# Loading Do File D:/LayoutPCB/pedal_control_pcb\pedal_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/wzj/AppData/Local/Temp/#Taaaabz05188.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Current time = Fri Jul 18 23:58:01 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_pcb\pedal.dsn
+# Nets 9 Connections 27 Unroutes 5
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 6, at vias 1 Total Vias 1
+# Percent Connected   55.56
+# Manhattan Length 22930.9550 Horizontal 8859.1120 Vertical 14071.8430
+# Routed Length 18676.6800 Horizontal 8137.4000 Vertical 10539.2800
+# Ratio Actual / Manhattan   0.8145
+# Unconnected Length 2510.0200 Horizontal 1251.1550 Vertical 1258.8650
+# Start Route Pass 1 of 25
+# Routing 63 wires.
+# Total Conflicts: 5 (Cross: 5, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 29 Successes 29 Failures 0 Vias 1
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 25
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Start Route Pass 2 of 25
+# Routing 13 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 13 Successes 13 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 25
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     5|     0|   0|    0|    1|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|     0|     0|   0|    0|    3|    0|   0|100|  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_pcb\pedal.dsn
+# Nets 9 Connections 27 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 2, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 30479.4650 Horizontal 11842.0240 Vertical 18637.4410
+# Routed Length 17115.8959 Horizontal 6935.8810 Vertical 10198.1450
+# Ratio Actual / Manhattan   0.5616
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Fri Jul 18 23:58:03 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_pcb\pedal.dsn
+# Nets 9 Connections 27 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 2, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 30479.4650 Horizontal 11842.0240 Vertical 18637.4410
+# Routed Length 17115.8959 Horizontal 6935.8810 Vertical 10198.1450
+# Ratio Actual / Manhattan   0.5616
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 31 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 29 Successes 25 Failures 4 Vias 3
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 31 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 28 Successes 26 Failures 2 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     5|     0|   0|    0|    1|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|     0|     0|   0|    0|    3|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  3|     0|     0|   4|    0|    3|    0|   0|   |  0:00:04|  0:00:05|
+# Clean    |  4|     0|     0|   2|    0|    3|    0|   0|   |  0:00:00|  0:00:05|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:05
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_pcb\pedal.dsn
+# Nets 9 Connections 27 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 3, at vias 2 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 29838.6300 Horizontal 11587.2300 Vertical 18251.4000
+# Routed Length 16822.2910 Horizontal 6960.4610 Vertical 9861.8300
+# Ratio Actual / Manhattan   0.5638
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/wzj/AppData/Local/Temp/#Taaaaca05188.tmp
+# <<WARNING:>> Non positive shape width (0) near the point 5164350/3175570.
+# <<WARNING:>> Non positive shape width (0) near the point 5164350/3175570.
+# <<WARNING:>> Non positive shape width (0) near the point 6003020/3726520.
+# <<WARNING:>> Non positive shape width (0) near the point 5684720/3416660.
+# <<WARNING:>> Non positive shape width (0) near the point 5271020/3409020.
+# <<WARNING:>> Non positive shape width (0) near the point 6003980/3369020.
+# <<WARNING:>> Non positive shape width (0) near the point 5740020/3212020.
+# Routing Written to File C:/Users/wzj/AppData/Local/Temp/#Taaaaca05188.tmp
+quit

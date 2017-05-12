@@ -1,0 +1,8 @@
+'usb_mini_b' 'usbminib.txt';
+'header5x2' 'dev0.txt';
+'ncu120_lqfp_64' 'dev1.txt';
+'xtal-3_4mm-2p' 'dev2.txt';
+'via40ovl_np_' 'dev3.txt';
+'header8x2' 'dev4.txt';
+'ncu140_lqfp_64' 'dev5.txt';
+'sot-223-1' 'sot2231.txt';

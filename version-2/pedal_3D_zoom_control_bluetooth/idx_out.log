@@ -1,0 +1,22 @@
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4900.1600 4725.8200)
+  End (4900.1600 4723.0000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4401.8900 4224.7200)
+  End (4399.0700 4224.7200)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4262.7000 4361.0800)
+  End (4262.7000 4363.9100)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4762.3700 4860.7900)
+  End (4765.1900 4860.7900)
+
+
+IDX file: D:/LayoutPCB/pedal_3D_zoom_control_bluetooth/idx/test
+IDX Version: 2.0
+Design file: D:/LayoutPCB/pedal_3D_zoom_control_bluetooth/test.brd
+idx_out complete.

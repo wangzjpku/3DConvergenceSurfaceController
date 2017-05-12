@@ -1,0 +1,40 @@
+\t (00:06:55) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:06:55)     Journal start - Tue Nov 25 15:15:21 2014
+\t (00:06:55)         Host=WZJ-PC User=Administrator Pid=8936 CPUs=4
+\t (00:06:55) 
+\d (00:06:55) Database opened: D:/6-PCN-Project/2-3DÉãÏñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/all_lib/audio_3.dra
+\i (00:06:55) generaledit 
+\i (00:06:59) padeditdb 
+\i (00:07:03) pick grid -0.544 8.740
+\t (00:07:03) last pick:  -0.550  8.750
+\i (00:07:07) setwindow form.mini
+\i (00:07:07) FORM mini pad_stack_edit  
+\i (00:07:16) setwindow form.padedit
+\i (00:07:16) FORM padedit layers  
+\i (00:07:24) FORM padedit parameters  
+\i (00:07:25) pse_exit
+\i (00:07:31) setwindow pcb
+\i (00:07:31) show measure 
+\i (00:07:33) pick grid 3.229 11.963
+\t (00:07:33) last pick:  3.225  11.975
+\i (00:07:35) pick grid 3.187 10.012
+\t (00:07:35) last pick:  3.175  10.000
+\i (00:07:39) setwindow text
+\i (00:07:39) close 
+\i (00:07:56) setwindow pcb
+\i (00:07:56) padeditlib 
+\i (00:08:23) fillin "menu_cancel"
+\i (00:08:25) fillin no 
+\i (00:08:27) fillin "menu_cancel"
+\i (00:08:28) fillin yes 
+\i (00:08:28) generaledit 
+\i (00:11:35) pick grid -9.151 11.793
+\t (00:11:35) last pick:  -9.150  11.800
+\i (00:11:39) opencd 'D:/6-PCN-Project/2-3DÉãÏ`ñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/test.brd' 
+\t (00:11:39) Opening existing design...
+\i (00:11:40) trapsize 1267
+\i (00:11:40) trapsize 1232
+\i (00:11:40) trapsize 1267
+\i (00:11:40) trapsize 1281
+\i (00:11:40) trapsize 1281
+\t (00:11:40)     Journal end - Tue Nov 25 15:20:06 2014

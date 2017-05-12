@@ -1,0 +1,70 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jul-11-2014 at 11:22:12 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PADEL_SCH';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ U1 'SWITCH_3B_SWITCH_3P_SWITCH_3B':;
+
+SECTION_NUMBER 1
+ '@PADEL_SCH.SCHEMATIC1(SCH_1):INS5175634@LIBRARY1.SWITCH_3B.NORMAL(CHIPS)':
+ C_PATH='@padel_sch.schematic1(sch_1):ins5175634@library1.\switch_3b.normal\(chips)',
+ P_PATH='@padel_sch.schematic1(sch_1):page1_ins5175634@library1.\switch_3b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'POT_3PIN_PET_3P_POT_3PIN':;
+
+SECTION_NUMBER 1
+ '@PADEL_SCH.SCHEMATIC1(SCH_1):INS5175741@LIBRARY1.POT_3PIN.NORMAL(CHIPS)':
+ C_PATH='@padel_sch.schematic1(sch_1):ins5175741@library1.\pot_3pin.normal\(chips)',
+ P_PATH='@padel_sch.schematic1(sch_1):page1_ins5175741@library1.\pot_3pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'ADUIO_3.5_AUDIO_3_ADUIO_3.5':;
+
+SECTION_NUMBER 1
+ '@PADEL_SCH.SCHEMATIC1(SCH_1):INS5175774@LIBRARY1.ADUIO_3.5.NORMAL(CHIPS)':
+ C_PATH='@padel_sch.schematic1(sch_1):ins5175774@library1.\aduio_3.5.normal\(chips)',
+ P_PATH='@padel_sch.schematic1(sch_1):page1_ins5175774@library1.\aduio_3.5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'ADUIO_3.5_AUDIO_3_ADUIO_3.5':;
+
+SECTION_NUMBER 1
+ '@PADEL_SCH.SCHEMATIC1(SCH_1):INS5175796@LIBRARY1.ADUIO_3.5.NORMAL(CHIPS)':
+ C_PATH='@padel_sch.schematic1(sch_1):ins5175796@library1.\aduio_3.5.normal\(chips)',
+ P_PATH='@padel_sch.schematic1(sch_1):page1_ins5175796@library1.\aduio_3.5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'ADUIO_3.5_AUDIO_3_ADUIO_3.5':;
+
+SECTION_NUMBER 1
+ '@PADEL_SCH.SCHEMATIC1(SCH_1):INS5175818@LIBRARY1.ADUIO_3.5.NORMAL(CHIPS)':
+ C_PATH='@padel_sch.schematic1(sch_1):ins5175818@library1.\aduio_3.5.normal\(chips)',
+ P_PATH='@padel_sch.schematic1(sch_1):page1_ins5175818@library1.\aduio_3.5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'SWITCH4P_BUTOM4P_SWITCH4P':;
+
+SECTION_NUMBER 1
+ '@PADEL_SCH.SCHEMATIC1(SCH_1):INS5177439@LIBRARY1.SWITCH4P.NORMAL(CHIPS)':
+ C_PATH='@padel_sch.schematic1(sch_1):ins5177439@library1.\switch4p.normal\(chips)',
+ P_PATH='@padel_sch.schematic1(sch_1):page1_ins5177439@library1.\switch4p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

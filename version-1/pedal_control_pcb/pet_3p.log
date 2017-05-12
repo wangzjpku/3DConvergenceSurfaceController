@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : pet_3p.dra                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jul 11 12:18:49 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/LayoutPCB/pedal_control_pcb
+    Name      = pet_3p.psm
+    User      = wzj
+    Machine   = WZJ-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

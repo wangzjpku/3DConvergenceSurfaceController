@@ -1,0 +1,70 @@
+\t (00:16:01) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:16:01)     Journal start - Wed Nov 26 10:47:50 2014
+\t (00:16:01)         Host=WZJ-PC User=Administrator Pid=8828 CPUs=4
+\t (00:16:01) 
+\d (00:16:01) Database opened: D:/6-PCN-Project/2-3D_Camera_Control/version-2/pedal_3D_zoom_control_bluetooth/test.brd
+\i (00:16:01) generaledit 
+\i (00:16:02) zoom in 1 
+\i (00:16:02) setwindow pcb
+\i (00:16:02) zoom in 1151.45 54.88
+\t (00:16:02) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:16:02) trapsize 1656
+\i (00:16:47) zoom out 1 
+\i (00:16:47) setwindow pcb
+\i (00:16:47) zoom out 1850.20 786.75
+\t (00:16:47) Grids are drawn 64.00, 64.00 apart for enhanced viewability.
+\i (00:16:47) trapsize 3312
+\i (00:16:48) zoom in 1 
+\i (00:16:48) setwindow pcb
+\i (00:16:48) zoom in 1850.20 786.75
+\t (00:16:48) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:16:48) trapsize 1656
+\i (00:16:52) artwork 
+\i (00:17:32) artwork 
+\i (00:17:34) setwindow form.film_control
+\i (00:17:34) FORM film_control filmtree  silkall 
+\i (00:17:38) FORM film_control filmtree popup Cut silkall 
+\i (00:17:44) FORM film_control filmtree  buttom-layer2 
+\i (00:17:48) FORM film_control undefined_line_width 6 
+\i (00:17:49) FORM film_control filmtree  drill 
+\i (00:17:51) FORM film_control undefined_line_width 6 
+\i (00:17:53) FORM film_control filmtree  maskbtm 
+\i (00:17:55) FORM film_control undefined_line_width 6 
+\i (00:17:57) FORM film_control filmtree  masktop 
+\i (00:17:59) FORM film_control undefined_line_width 6 
+\i (00:18:01) FORM film_control filmtree  silkbtm 
+\i (00:18:02) FORM film_control undefined_line_width 6 
+\i (00:18:04) FORM film_control filmtree  silktop 
+\i (00:18:06) FORM film_control undefined_line_width 6 
+\i (00:18:09) FORM film_control filmtree  smdbtm 
+\i (00:18:10) FORM film_control undefined_line_width 6 
+\i (00:18:12) FORM film_control filmtree  smdtop 
+\i (00:18:14) FORM film_control undefined_line_width 6 
+\i (00:18:16) FORM film_control filmtree  top-layer1 
+\i (00:18:17) FORM film_control undefined_line_width 6 
+\i (00:18:19) FORM film_control filmtree  smdtop 
+\i (00:18:19) FORM film_control filmtree  silktop 
+\i (00:18:19) FORM film_control filmtree  masktop 
+\i (00:18:20) FORM film_control filmtree  maskbtm 
+\i (00:18:20) FORM film_control filmtree  drill 
+\i (00:18:21) FORM film_control filmtree  buttom-layer2 
+\i (00:18:22) FORM film_control general_parameters  
+\i (00:18:25) FORM film_control film_control  
+\i (00:18:54) FORM film_control select_all  
+\i (00:18:56) FORM film_control general_parameters  
+\i (00:18:57) FORM film_control film_control  
+\i (00:19:00) FORM film_control create  
+\t (00:19:00) Checking db records
+\t (00:19:00)     checking for orphans...
+\t (00:19:00)     Checked 100 percent
+\t (00:19:00) Done dbdoctor.
+\t (00:19:00) Starting Create artwork films...
+\t (00:19:01) Plot generated.
+\i (00:19:56) FORM film_control cancel  
+\i (00:19:56) setwindow pcb
+\i (00:19:56) generaledit 
+\i (00:23:29) save 
+\i (00:23:30) fillin yes 
+\i (00:23:30) generaledit 
+\i (00:23:31) exit 
+\t (00:23:31)     Journal end - Wed Nov 26 10:55:21 2014

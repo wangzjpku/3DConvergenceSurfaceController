@@ -1,0 +1,1605 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro NETLIST IN Log File                                      )
+(                                                                     )
+(    Drawing          : NuTiny-SDK-NUC122.brd                         )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Mon Jul 14 16:25:31 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Jul 14 16:25:31 2014				Page     1
+
+
+
+
+Netlist File Name: 'D:/LayoutPCB/pedal_control_pcb\NuTiny-SDK-NUC122.TXT'     ~
+ Layout File Name: 'D:/LayoutPCB/pedal_control_pcb\NuTiny-SDK-NUC122.brd'
+
+===========================================================
+
+$PACKAGES
+TANT-A ! 'TANT-A' ; C1
+C0603 ! 'C0603' ; C2
+C0603 ! 'C0603' ; C4
+C0603 ! 'C0603' ; C3
+C0603 ! 'C0603' ; C5
+C0603 ! 'C0603' ; C8
+C0603 ! 'C0603' ; C9
+C0603 ! 'C0603' ; CB1
+C0603 ! 'C0603' ; CB2
+C0603 ! 'C0603' ; C6
+TANT-R ! 'TANT-R' ; CT2
+RB060L ! 'RB060L' ; D1
+RB060L ! 'RB060L' ; PD2
+RB060L ! 'RB060L' ; D2
+KP-2012 ! 'KP-2012' ; IO1
+KP-2012 ! 'KP-2012' ; BUSY1
+KP-2012 ! 'KP-2012' ; ICE1
+KP-2012 ! 'KP-2012' ; ICP1
+USB_MINI_B ! 'USB_MINI_B' ; J1
+HEADER5X2 ! 'HEADER5X2' ; JP9
+L0603 ! 'L0603' ; L1
+L0603 ! 'L0603' ; L5
+L0603 ! 'L0603' ; L6
+L0805 ! 'L0805' ; L3
+R0603 ! 'R0603' ; R1
+R0603 ! 'R0603' ; R5
+R0603 ! 'R0603' ; R9
+R0603 ! 'R0603' ; PR1
+R0603 ! 'R0603' ; R12
+R0603 ! 'R0603' ; R3
+R0603 ! 'R0603' ; R2
+R0603 ! 'R0603' ; R4
+KP-2012 ! 'KP-2012' ; IDLE1
+R0603 ! 'R0603' ; RICK1
+8P4RA ! '8P4RA' ; RP1
+R0603 ! 'R0603' ; RRSET1
+R0603 ! 'R0603' ; RTCK1
+R0603 ! 'R0603' ; RTDA1
+R0603 ! 'R0603' ; RTDA2
+R0603 ! 'R0603' ; RTDA3
+R0603 ! 'R0603' ; RTIDA1
+QFP64_12_0_5 ! 'NCU120_LQFP_64' ; U2
+XTAL-3_4MM-2P ! 'XTAL-3_4MM-2P' ; X1
+XTAL_LP_SMD ! 'XTAL3-1' ; X2
+XTAL_LP_SMD ! 'XTAL3-1' ; X3
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H14
+Mon Jul 14 16:25:31 2014				Page     2
+
+
+
+
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H15
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H16
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H17
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H12
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H11
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H10
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H9
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H8
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H7
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H6
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H5
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H4
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H2
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H3
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H1
+VIA40OVL_NP_ ! 'VIA40OVL_NP_' ; H13
+SIP_5P ! 'HEADER5' ; JP10
+KP-2012 ! 'KP-2012' ; POWER1
+SW ! 'SW' ; SW1
+SIP_2P ! 'HEADER2' ; JP1
+R0603 ! 'R0603' ; R8
+HEADER8X2 ! 'HEADER8X2' ; JP5
+SIP-4P ! 'HEADER04' ; JP4
+HEADER8X2 ! 'HEADER8X2' ; JP7
+HEADER8X2 ! 'HEADER8X2' ; JP8
+R0603 ! 'R0603' ; R10
+TANT-R ! 'TANT-R' ; CT1
+SIP_2P ! 'HEADER2' ; JP2
+HEADER5X2 ! 'HEADER5X2' ; JP3
+HEADER8X2 ! 'HEADER8X2' ; JP6
+TANT-A ! 'TANT-A' ; C7
+C0603 ! 'C0603' ; C10
+L0805 ! 'L0805' ; L4
+R0603 ! 'R0603' ; R11
+R0603 ! 'R0603' ; R6
+R0603 ! 'R0603' ; R7
+USB_MINI_B ! 'USB_MINI_B' ; J2
+SIP-4P ! 'HEADER04' ; JP11
+LQFP64 ! 'NCU140_LQFP_64' ; U1
+SIP-3P ! 'HEADER03' ; JPR
+SOT-223-1 ! 'SOT-223-1' ; UP6
+TANT-B ! 'TANT-B' ; CP1
+$NETS
+'P62' ; U1.62 JP8.14
+'P5V' ; UP6.3 PD2.2 JPR.3
+'P41' ; JP7.9 U1.41
+'P3V' ; JPR.1 CP1.1 UP6.4 UP6.2
+'P61' ; U1.61 JP8.13
+'P5' ; U1.5 JP5.5
+'P4' ; JP5.4 U1.4
+'USB_D-' ; U2.19 R11.1
+'USBVBUS' ; J2.1 JP11.1 C10.1 PD2.1 U2.17
+Mon Jul 14 16:25:31 2014				Page     3
+
+
+
+
+'N16812255' ; CB2.2 U2.18
+'N16796086' ; J2.9 J2.7 J2.8 L4.1 J2.6
+'N16793024' ; D2.2 JP9.1
+'DP' ; JP11.3 J2.3 R12.2
+'DM' ; JP11.2 R11.2 J2.2
+'P32' ; U1.32 JP6.16
+'P31' ; U1.31 JP6.15
+'P30' ; U1.30 JP6.14
+'P29' ; U1.29 JP6.13
+'P28' ; U1.28 JP6.12
+'P27' ; U1.27 JP6.11
+'P26' ; U1.26 JP6.10
+'P25' ; JP6.9 U1.25
+'P24' ; JP6.8 U1.24
+'P23' ; JP6.7 U1.23
+'P22' ; JP6.6 U1.22
+'P21' ; JP6.5 U1.21
+'P20' ; U1.20 JP6.4 R7.1
+'P19' ; U1.19 JP6.3 R6.1
+'P18' ; U1.18 JP6.2 C6.2
+'P64' ; U1.64 JP8.16
+'D12MO' ; R2.1 JP8.8 U1.56
+'P55' ; JP8.7 U1.55
+'P54' ; JP8.6 U1.54
+'P53' ; U1.53 JP8.5
+'P51' ; U1.51 JP8.3
+'P50' ; U1.50 JP8.2
+'P49' ; U1.49 JP8.1
+'DAVDD' ; L1.2 U1.48 JP7.16
+'P45' ; U1.45 JP7.13
+'P44' ; U1.44 JP7.12
+'P40' ; JP7.8 U1.40
+'P39' ; JP7.7 U1.39
+'P37' ; JP7.5 U1.37
+'P36' ; JP7.4 U1.36
+'P35' ; U1.35 JP7.3
+'P34' ; U1.34 JP7.2
+'P14' ; U1.14 CT1.1 JP5.14
+'P13' ; JP5.13 U1.13
+'P43' ; U1.43 JP7.11
+'P52' ; U1.52 JP8.4
+'P11' ; JP5.11 U1.11
+'P12' ; JP5.12 U1.12
+'ICE_RST' ; C7.1 R8.1 U2.60 JP10.4
+'N16831459' ; POWER1.1 PR1.1
+'N16812354' ; RTDA2.2 U2.34
+'N16812063' ; U2.14 CT2.1
+'N16812376' ; RTDA3.2 U2.33
+'AVDD' ; U2.52 L5.1
+'USB_D+' ; U2.20 R12.1
+'RED' ; U2.12 IDLE1.2
+'12M_I' ; C9.1 X3.2 R10.1 U2.59
+Mon Jul 14 16:25:31 2014				Page     4
+
+
+
+
+'GREEN' ; U2.13 BUSY1.2
+'ISPLED' ; U2.11 ICP1.2
+'12M_O' ; R9.2 U2.58
+'ICELED' ; U2.10 ICE1.2
+'ADAVSS' ; U2.43 L6.1
+'DP1' ; R7.2 JP4.3 J1.3
+'DM1' ; R6.2 J1.2 JP4.2
+'N16823268' ; J1.9 L3.1 J1.8 J1.6 J1.7
+'N16829506' ; IO1.1 R5.1
+'N00938' ; RP1.3 ICP1.1
+'N00882' ; RP1.5 IDLE1.1
+'N00874' ; RP1.7 BUSY1.1
+'N00906' ; RP1.1 ICE1.1
+'TICERST' ; U1.58 JP8.10 C1.1 R1.1 RRSET1.1 SW1.2 U2.36 JP3.8 JP9.7
+'TICEDAT' ; U1.46 JP7.14 JP3.4 JP9.3 RTDA2.1 RTDA1.1 RTDA3.1
+'TICECLK' ; U1.47 JP7.15 JP3.6 JP9.5 RTCK1.1 U2.35
+'DVBUS' ; U1.17 JP6.1 J1.1 JP4.1 D1.1
+'P10' ; IO1.2 JP5.10 U1.10
+'P9' ; JP5.9 U1.9
+'P8' ; JP5.8 U1.8
+'P7' ; JP5.7 U1.7
+'P6' ; JP5.6 U1.6
+'P1' ; JP5.1 U1.1
+'VCC' ; JP7.6 U1.38 L1.1 U1.60 JPR.2 U2.62 U2.15 RP1.8 RP1.6 RP1.4 RP1.2 PR1.2,
+JP1.1 RRSET1.2 R8.2 JP10.1 RTIDA1.2 RTDA1.2 RTCK1.2 RICK1.2 L5.2 JP3.2 JP8.12,
+JP1.2 D2.1 U1.15 JP5.15 R5.2 R1.2 D1.2 CB1.2
+'GND' ; U1.59 JP8.11 JP8.15 J2.5 L6.2 CP1.2 UP6.1 JP11.4 L4.2 C10.2 JP10.5,
+U2.63 U2.61 U2.16 CT2.2 CB2.1 C9.2 C8.2 C7.2 JP9.9 JP3.10 JP7.10 JP7.1 C5.1,
+U1.63 U1.42 U1.33 C3.1 JP2.2 CT1.2 JP5.16 SW1.1 POWER1.2 CB1.1 U1.16 JP2.1,
+JP4.4 L3.2 J1.5 C6.1 C1.2 C2.1 C4.1
+'DX32I' ; JP5.3 U1.3 C4.2 X1.2 R3.1
+'DX32O' ; JP5.2 U1.2 C2.2 R3.2 X1.1
+'D12MI' ; JP8.9 U1.57 X2.2 R4.1 C5.2
+'N16792773' ; X2.1 C3.2 R2.2 R4.2
+'N07267' ; C8.1 R10.2 X3.1 R9.1
+'ICE_DAT' ; JP10.2 RTIDA1.1 U2.41
+'ICE_CLK' ; JP10.3 RICK1.1 U2.42
+$END
+
+===========================================================
+End of NETLIST IN Syntax/Logic Check
+===========================================================
+
+Total Netlist Warnings =  0.
+Total Netlist Errors   =  0.
+Mon Jul 14 16:25:31 2014				Page     1
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/tant-a.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TANT-A)
+PACKAGE TANT-A
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'TANT-A' 1 2 
+
+FUNCTION F1 'TANT-A' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     2
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     3
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     4
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     5
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     6
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     7
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     8
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page     9
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    10
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    11
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/tant-r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TANT-R)
+PACKAGE TANT-R
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'TANT-R' 1 2 
+
+FUNCTION F1 'TANT-R' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    12
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/rb060l.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RB060L)
+PACKAGE RB060L
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'RB060L' 1 2 
+
+FUNCTION F1 'RB060L' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    13
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/rb060l.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RB060L)
+PACKAGE RB060L
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'RB060L' 1 2 
+
+FUNCTION F1 'RB060L' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    14
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/rb060l.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RB060L)
+PACKAGE RB060L
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'RB060L' 1 2 
+
+FUNCTION F1 'RB060L' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    15
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/kp-2012.txt'.
+
+
+(DEVICE DESCRIPTION FILE: KP-2012)
+PACKAGE KP-2012
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'KP-2012' 1 2 
+
+FUNCTION F1 'KP-2012' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    16
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/kp-2012.txt'.
+
+
+(DEVICE DESCRIPTION FILE: KP-2012)
+PACKAGE KP-2012
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'KP-2012' 1 2 
+
+FUNCTION F1 'KP-2012' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    17
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/kp-2012.txt'.
+
+
+(DEVICE DESCRIPTION FILE: KP-2012)
+PACKAGE KP-2012
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'KP-2012' 1 2 
+
+FUNCTION F1 'KP-2012' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    18
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/kp-2012.txt'.
+
+
+(DEVICE DESCRIPTION FILE: KP-2012)
+PACKAGE KP-2012
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'KP-2012' 1 2 
+
+FUNCTION F1 'KP-2012' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    19
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/usbminib.txt'.
+
+
+(DEVICE DESCRIPTION FILE: USB_MINI_B)
+PACKAGE USB_MINI_B
+PINCOUNT 11
+CLASS IC
+
+PINORDER 'USB_MINI_B' 1 2 3 4 5 6 7 8 9 10 11 
+
+FUNCTION F1 'USB_MINI_B' 1 2 3 4 5 6 7 8 9 10 11 
+
+END
+Mon Jul 14 16:25:31 2014				Page    20
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev0.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER5X2)
+PACKAGE HEADER5X2
+PINCOUNT 10
+CLASS IC
+
+PINORDER 'HEADER5X2' 1 2 3 4 5 6 7 8 9 10 
+
+FUNCTION F1 'HEADER5X2' 1 2 3 4 5 6 7 8 9 10 
+
+END
+Mon Jul 14 16:25:31 2014				Page    21
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/l0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: L0603)
+PACKAGE L0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'L0603' 1 2 
+
+FUNCTION F1 'L0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    22
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/l0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: L0603)
+PACKAGE L0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'L0603' 1 2 
+
+FUNCTION F1 'L0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    23
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/l0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: L0603)
+PACKAGE L0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'L0603' 1 2 
+
+FUNCTION F1 'L0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    24
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/l0805.txt'.
+
+
+(DEVICE DESCRIPTION FILE: L0805)
+PACKAGE L0805
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'L0805' 1 2 
+
+FUNCTION F1 'L0805' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    25
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    26
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    27
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    28
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    29
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    30
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    31
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    32
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    33
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/kp-2012.txt'.
+
+
+(DEVICE DESCRIPTION FILE: KP-2012)
+PACKAGE KP-2012
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'KP-2012' 1 2 
+
+FUNCTION F1 'KP-2012' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    34
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    35
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/8p4ra.txt'.
+
+
+(DEVICE DESCRIPTION FILE: 8P4RA)
+PACKAGE 8P4RA
+PINCOUNT 8
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(8P4RA,8P4RAA,8P4RAAA)'
+
+PINORDER '8P4RA' 1 2 3 4 5 6 7 8 
+
+FUNCTION F1 '8P4RA' 1 2 3 4 5 6 7 8 
+
+END
+Mon Jul 14 16:25:31 2014				Page    36
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    37
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    38
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    39
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    40
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    41
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    42
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: NCU120_LQFP_64)
+PACKAGE QFP64_12_0_5
+PINCOUNT 68
+CLASS IC
+
+PINORDER 'NCU120_LQFP_64' 1 2 3 4 5 6 7 8 9 10 11 12,
+13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,
+31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48,
+49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66,
+67 68 
+
+FUNCTION F1 'NCU120_LQFP_64' 1 2 3 4 5 6 7 8 9 10 11,
+12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,
+30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47,
+48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65,
+66 67 68 
+
+END
+Mon Jul 14 16:25:31 2014				Page    43
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: XTAL-3_4MM-2P)
+PACKAGE XTAL-3_4MM-2P
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'XTAL-3_4MM-2P' 1 2 
+
+FUNCTION F1 'XTAL-3_4MM-2P' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    44
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/xtal3-1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: XTAL3-1)
+PACKAGE XTAL_LP_SMD
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'XTAL3-1' 1 2 
+
+FUNCTION F1 'XTAL3-1' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    45
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/xtal3-1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: XTAL3-1)
+PACKAGE XTAL_LP_SMD
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'XTAL3-1' 1 2 
+
+FUNCTION F1 'XTAL3-1' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    46
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    47
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    48
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    49
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    50
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    51
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    52
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    53
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    54
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    55
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    56
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    57
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    58
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    59
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    60
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    61
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    62
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: VIA40OVL_NP_)
+PACKAGE VIA40OVL_NP_
+PINCOUNT 1
+CLASS IC
+
+PINORDER 'VIA40OVL_NP_' 1 
+
+FUNCTION F1 'VIA40OVL_NP_' 1 
+
+END
+Mon Jul 14 16:25:31 2014				Page    63
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/header5.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER5)
+PACKAGE SIP_5P
+PINCOUNT 5
+CLASS IC
+
+PINORDER 'HEADER5' 1 2 3 4 5 
+
+FUNCTION F1 'HEADER5' 1 2 3 4 5 
+
+END
+Mon Jul 14 16:25:31 2014				Page    64
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/kp-2012.txt'.
+
+
+(DEVICE DESCRIPTION FILE: KP-2012)
+PACKAGE KP-2012
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'KP-2012' 1 2 
+
+FUNCTION F1 'KP-2012' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    65
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/sw.txt'.
+
+
+(DEVICE DESCRIPTION FILE: SW)
+PACKAGE SW
+PINCOUNT 4
+CLASS IC
+
+PINORDER 'SW' 1 2 3 4 
+
+FUNCTION F1 'SW' 1 2 3 4 
+
+END
+Mon Jul 14 16:25:31 2014				Page    66
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/header2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER2)
+PACKAGE SIP_2P
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'HEADER2' 1 2 
+
+FUNCTION F1 'HEADER2' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    67
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    68
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev4.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER8X2)
+PACKAGE HEADER8X2
+PINCOUNT 16
+CLASS IC
+
+PINORDER 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13 14,
+15 16 
+
+FUNCTION F1 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13,
+14 15 16 
+
+END
+Mon Jul 14 16:25:31 2014				Page    69
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/header04.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER04)
+PACKAGE SIP-4P
+PINCOUNT 4
+CLASS IC
+
+PINORDER 'HEADER04' 1 2 3 4 
+
+FUNCTION F1 'HEADER04' 1 2 3 4 
+
+END
+Mon Jul 14 16:25:31 2014				Page    70
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev4.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER8X2)
+PACKAGE HEADER8X2
+PINCOUNT 16
+CLASS IC
+
+PINORDER 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13 14,
+15 16 
+
+FUNCTION F1 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13,
+14 15 16 
+
+END
+Mon Jul 14 16:25:31 2014				Page    71
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev4.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER8X2)
+PACKAGE HEADER8X2
+PINCOUNT 16
+CLASS IC
+
+PINORDER 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13 14,
+15 16 
+
+FUNCTION F1 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13,
+14 15 16 
+
+END
+Mon Jul 14 16:25:31 2014				Page    72
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    73
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/tant-r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TANT-R)
+PACKAGE TANT-R
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'TANT-R' 1 2 
+
+FUNCTION F1 'TANT-R' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    74
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/header2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER2)
+PACKAGE SIP_2P
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'HEADER2' 1 2 
+
+FUNCTION F1 'HEADER2' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    75
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev0.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER5X2)
+PACKAGE HEADER5X2
+PINCOUNT 10
+CLASS IC
+
+PINORDER 'HEADER5X2' 1 2 3 4 5 6 7 8 9 10 
+
+FUNCTION F1 'HEADER5X2' 1 2 3 4 5 6 7 8 9 10 
+
+END
+Mon Jul 14 16:25:31 2014				Page    76
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev4.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER8X2)
+PACKAGE HEADER8X2
+PINCOUNT 16
+CLASS IC
+
+PINORDER 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13 14,
+15 16 
+
+FUNCTION F1 'HEADER8X2' 1 2 3 4 5 6 7 8 9 10 11 12 13,
+14 15 16 
+
+END
+Mon Jul 14 16:25:31 2014				Page    77
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/tant-a.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TANT-A)
+PACKAGE TANT-A
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'TANT-A' 1 2 
+
+FUNCTION F1 'TANT-A' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    78
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/c0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: C0603)
+PACKAGE C0603
+PINCOUNT 2
+CLASS IC
+PACKAGEPROP ALT_SYMBOLS '(C0603,C0603A)'
+
+PINORDER 'C0603' 1 2 
+
+FUNCTION F1 'C0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    79
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/l0805.txt'.
+
+
+(DEVICE DESCRIPTION FILE: L0805)
+PACKAGE L0805
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'L0805' 1 2 
+
+FUNCTION F1 'L0805' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    80
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    81
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    82
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/r0603.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R0603)
+PACKAGE R0603
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'R0603' 1 2 
+
+FUNCTION F1 'R0603' 1 2 
+
+END
+Mon Jul 14 16:25:31 2014				Page    83
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/usbminib.txt'.
+
+
+(DEVICE DESCRIPTION FILE: USB_MINI_B)
+PACKAGE USB_MINI_B
+PINCOUNT 11
+CLASS IC
+
+PINORDER 'USB_MINI_B' 1 2 3 4 5 6 7 8 9 10 11 
+
+FUNCTION F1 'USB_MINI_B' 1 2 3 4 5 6 7 8 9 10 11 
+
+END
+Mon Jul 14 16:25:31 2014				Page    84
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/header04.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER04)
+PACKAGE SIP-4P
+PINCOUNT 4
+CLASS IC
+
+PINORDER 'HEADER04' 1 2 3 4 
+
+FUNCTION F1 'HEADER04' 1 2 3 4 
+
+END
+Mon Jul 14 16:25:31 2014				Page    85
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/dev5.txt'.
+
+
+(DEVICE DESCRIPTION FILE: NCU140_LQFP_64)
+PACKAGE LQFP64
+PINCOUNT 64
+CLASS IC
+
+PINORDER 'NCU140_LQFP_64' 1 2 3 4 5 6 7 8 9 10 11 12,
+13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,
+31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48,
+49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+
+FUNCTION F1 'NCU140_LQFP_64' 1 2 3 4 5 6 7 8 9 10 11,
+12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,
+30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47,
+48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+
+END
+Mon Jul 14 16:25:31 2014				Page    86
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/header03.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HEADER03)
+PACKAGE SIP-3P
+PINCOUNT 3
+CLASS IC
+
+PINORDER 'HEADER03' 1 2 3 
+
+FUNCTION F1 'HEADER03' 1 2 3 
+
+END
+Mon Jul 14 16:25:31 2014				Page    87
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/sot2231.txt'.
+
+
+(DEVICE DESCRIPTION FILE: SOT-223-1)
+PACKAGE SOT-223-1
+PINCOUNT 4
+CLASS IC
+
+PINORDER 'SOT-223-1' 1 2 3 4 
+
+FUNCTION F1 'SOT-223-1' 1 2 3 4 
+
+END
+Mon Jul 14 16:25:31 2014				Page    88
+
+Parsing device file: 'D:/LayoutPCB/pedal_control_pcb/tant-b.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TANT-B)
+PACKAGE TANT-B
+PINCOUNT 2
+CLASS IC
+
+PINORDER 'TANT-B' 1 2 
+
+FUNCTION F1 'TANT-B' 1 2 
+
+END
+
+
+===========================================================
+
+Total Device File Warnings =  0.
+Total Device File Errors   =  0.
+
+Mon Jul 14 16:25:31 2014				Page     5
+
+
+
+
+===========================================================
+
+Total Combined Netlist and Device File Warnings =  0.
+Total Combined Netlist and Device File Errors   =  0.
+
+===========================================================
+End of Allegro NETLIST IN Log
+===========================================================

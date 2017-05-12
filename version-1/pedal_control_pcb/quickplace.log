@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : pedal.brd                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Jul 09 21:11:55 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / SWITCH_3B_SWITCH_3P_SWITCH_3B / SWITCH_3P at (5939.0000 5437.1576)
+         Placed symbol:  U2 / POT_3PIN_PET_3P_POT_3PIN / PET_3P at (6272.0000 5338.1576)
+         Placed symbol:  U3 / ADUIO_3.5_AUDIO_3_ADUIO_3.5 / AUDIO_3 at (5320.3390 6263.0000)
+         Placed symbol:  U4 / ADUIO_3.5_AUDIO_3_ADUIO_3.5 / AUDIO_3 at (5644.3390 6263.0000)
+         Placed symbol:  U5 / ADUIO_3.5_AUDIO_3_ADUIO_3.5 / AUDIO_3 at (5968.3390 6263.0000)
+
+
+Placed 5 of 5 applicable (5 total) symbols.
+
+-----------------------------------------------------------------------
+

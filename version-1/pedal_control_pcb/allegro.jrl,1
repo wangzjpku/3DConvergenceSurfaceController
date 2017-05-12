@@ -1,0 +1,40 @@
+\t (00:00:40) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:40)     Journal start - Mon Jan 04 00:00:40 2016
+\t (00:00:40)         Host=WZJ-PC User=Administrator Pid=6712 CPUs=4
+\t (00:00:40) 
+\d (00:00:40) Database opened: D:/6-PCN-Project/2-3D_Camera_Control/version-1/pedal_control_pcb/pedal.brd
+\i (00:00:40) generaledit 
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 511.95 1194.38
+\i (00:00:41) trapsize 2492
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 511.95 1194.38
+\i (00:00:42) trapsize 4984
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 422.24 835.51
+\i (00:00:42) trapsize 2492
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 422.24 835.51
+\i (00:00:43) trapsize 1246
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out -278.06 890.34
+\i (00:00:45) trapsize 2492
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in -278.06 890.34
+\i (00:00:47) trapsize 1246
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 1503.84 770.71
+\i (00:00:58) trapsize 2492
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 1503.85 770.72
+\i (00:00:58) trapsize 1246
+\i (00:01:06) exit 
+\t (00:01:06)     Journal end - Mon Jan 04 00:01:06 2016

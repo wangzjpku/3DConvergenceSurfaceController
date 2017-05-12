@@ -1,0 +1,19 @@
+\t (00:00:08) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:08)     Journal start - Mon Jan 04 10:30:24 2016
+\t (00:00:08)         Host=WZJ-PC User=Administrator Pid=6440 CPUs=4
+\t (00:00:08) 
+\t (00:00:11) Opening existing design...
+\d (00:00:12) Database opened: D:/6-PCN-Project/2-3D_Camera_Control/version-1/pedal_control_pcb/pedal.brd
+\i (00:00:12) trapsize 1221
+\i (00:00:12) trapsize 1186
+\i (00:00:12) trapsize 1228
+\i (00:00:12) trapsize 1245
+\i (00:00:13) trapsize 994
+\i (00:00:13) trapsize 1246
+\i (00:00:14) generaledit 
+\i (00:00:16) open 
+\i (00:00:28) fillin "D:\6-PCN-Project\8-摄像机云台转换控制系统\电路\remotepanasonicDB9-rout-V2-1.brd"
+\i (00:00:28) cd "D:\6-PCN-Project\8-摄像机云台转换控制系统\电路"
+\t (00:00:28) Opening existing design...
+\i (00:00:28) trapsize 2673
+\t (00:00:28)     Journal end - Mon Jan 04 10:30:44 2016

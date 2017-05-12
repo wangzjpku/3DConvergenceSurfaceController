@@ -1,0 +1,17 @@
+#Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+#Host 
+#ROUTING STATUS <<< D:/6-PCN-Project/2-3DÉãÏñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth\test.dsn >>>
+Start  Time: Report Time: Wed Nov 19 18:16:55 2014
+
+Nets         =        8   Connections         =       27
+Current Wire =       34   Reroute wires       =       34
+Completion   =  100.00%   Unconnections       =        0
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Route    |  1|     9|     0|   0|    0|    8|    0|   0|  0|  0:00:00|  0:00:00|
+| Route    |  2|     0|     0|   0|    0|    8|    0|   0|100|  0:00:00|  0:00:00|
+| Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+| Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+| Conflicts between polygon wires and fixed objects:   0

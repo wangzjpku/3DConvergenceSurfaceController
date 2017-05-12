@@ -1,0 +1,83 @@
+Translating D:/LayoutPCB/padel_control_bluetooth/NuTiny-SDK-NUC122.asc.
+Using translator version @(#)$CDS:  pads_in.exe v16-5-13B 4/23/2011 Copyr 2011 CADENCE DESIGN SYSTEMS.
+Reading PADS ASCII file header.
+ Version = PowerPCB5.0
+ Route Layers = 2
+ Units = MILS
+ Hatch mode = Vertical / Horizontal
+ Hatch grid = 5.000000, angle = 0.000000, anti-pad spacing = 0.000315
+ *MISC*
+ *MISC*
+Information: CSet 1_4_5 renamed to DEFAULT
+
+Warning: Allegro doesn't support default electrical CSets.
+	Please assign electrical cset DEFAULT to the objects manually.
+ *MISC*
+ *MISC*
+ *MISC*
+Initializing new database.
+ Creating layers.
+Reading PADS ASCII file body.
+ *REUSE*
+ *TEXT*
+ *LINES*
+ *VIA*
+ *PARTDECAL*
+ *PARTTYPE*
+ *PART*
+ *ROUTE*
+ Writing routes.
+ *POUR*
+ *END*
+
+===============================================================================
+ PADS layer usage summary:
+  Layers 1 to 2 are route layers.
+  LINES:
+     1           ETCH - TOP
+     2           ETCH - BOTTOM
+    24  * Not mapped!
+    26  * Not mapped!
+  COPPER:
+     1           ETCH - TOP
+     2           ETCH - BOTTOM
+  TEXT:
+    24  * Not mapped!
+    26  * Not mapped!
+    29  * Not mapped!
+  DECALS:
+     0 PACKAGE GEOMETRY - SILKSCREEN_TOP
+     1 PACKAGE GEOMETRY - SILKSCREEN_TOP
+    18  * Not mapped!
+    26  * Not mapped!
+  PADS:
+     0           ETCH - internal_pad_def
+     1           ETCH - TOP
+     2           ETCH - BOTTOM
+    25  * Not mapped!
+  VIAS:
+     0      VIA CLASS - internal_pad_def
+     1      VIA CLASS - TOP
+     2      VIA CLASS - BOTTOM
+
+ WARNING: 165 data objects mapped to the UNUSED class were ignored.
+===============================================================================
+
+Creating D:/LayoutPCB/pedal_control_pcb\NuTiny-SDK-NUC122.brd.
+Loading netlist:
+D:/LayoutPCB/pedal_control_pcb\NuTiny-SDK-NUC122.TXT
+
+Total Combined Netlist and Device File Warnings =  0.
+Total Combined Netlist and Device File Errors   =  0.
+See netin.log for details
+
+Writing database.
+
+ Creating padstack definitions.
+ Creating symbols.
+ Creating independent data.
+
+Closing database.
+Loading constraints...
+Translation complete.
+Finished reading input file with no errors.

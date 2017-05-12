@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : butom4p.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jul 11 12:20:27 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/LayoutPCB/pedal_control_pcb
+    Name      = butom4p.psm
+    User      = wzj
+    Machine   = WZJ-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

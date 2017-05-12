@@ -1,0 +1,110 @@
+\t (00:45:57) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:45:57)     Journal start - Tue Nov 25 14:49:17 2014
+\t (00:45:57)         Host=WZJ-PC User=Administrator Pid=9124 CPUs=4
+\t (00:45:57) 
+\d (00:45:57) Database opened: D:/6-PCN-Project/2-3DÉãÏñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/all_lib/FJM10K.dra
+\i (00:45:58) generaledit 
+\i (00:46:00) pick grid 12.683 11.154
+\t (00:46:00) last pick:  12.680  11.150
+\i (00:46:12) padeditdb 
+\i (00:46:14) pick grid 12.780 10.861
+\t (00:46:14) last pick:  12.780  10.860
+\i (00:46:21) setwindow form.mini
+\i (00:46:21) FORM mini pad_stack_edit  
+\i (00:46:23) setwindow form.padedit
+\i (00:46:23) FORM padedit layers  
+\i (00:46:49) FORM padedit parameters  
+\i (00:46:59) pse_exit
+\i (00:47:05) setwindow pcb
+\i (00:47:05) opencd 'D:/6-PCN-Project/2-3DÉãÏ`ñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/all_lib/audio_3.dra' 
+\t (00:47:05) Opening existing design...
+\t (00:47:05) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:47:05) trapsize 212
+\d (00:47:05) Database opened: D:/6-PCN-Project/2-3DÉãÏñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/all_lib/audio_3.dra
+\i (00:47:05) generaledit 
+\i (00:47:08) padeditdb 
+\i (00:47:10) pick grid 0.643 8.105
+\t (00:47:10) last pick:  0.650  8.100
+\i (00:47:12) setwindow form.mini
+\i (00:47:12) FORM mini pad_stack_edit  
+\i (00:47:29) setwindow form.padedit
+\i (00:47:29) FORM padedit units Mils 
+\i (00:47:30) fillin yes 
+\w (00:47:31) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:47:37) FORM padedit layers  
+\i (00:48:01) FORM padedit grid row top 
+\i (00:48:05) FORM padedit grid row default_internal 
+\i (00:48:09) FORM padedit grid rpopup default_internal Copy 
+\i (00:48:10) FORM padedit grid row soldermask_top 
+\i (00:48:12) FORM padedit grid rpopup soldermask_top Paste 
+\i (00:48:14) FORM padedit grid rpopup soldermask_bottom Paste 
+\i (00:48:16) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:48:18) FORM padedit grid rpopup pastemask_bottom Paste 
+\i (00:48:23) FORM padedit grid row top 
+\i (00:48:28) FORM padedit width_th 80 
+\i (00:48:33) FORM padedit geometry_th Rectangle 
+\i (00:48:35) FORM padedit width_th 80 
+\i (00:48:38) FORM padedit height_th 40 
+\i (00:48:41) FORM padedit geometry_ant Rectangle 
+\i (00:48:44) FORM padedit width_ant 80 
+\i (00:48:46) FORM padedit height_ant 40 
+\i (00:48:51) FORM padedit grid rpopup top Copy 
+\i (00:48:51) FORM padedit grid row default_internal 
+\i (00:48:53) FORM padedit grid rpopup default_internal Paste 
+\i (00:48:55) FORM padedit grid row bottom 
+\i (00:48:56) FORM padedit grid rpopup bottom Paste 
+\i (00:48:58) FORM padedit parameters  
+\i (00:49:13) pse_update_exit 
+\i (00:49:21) setwindow text
+\i (00:49:21) close 
+\i (00:49:23) fillin yes 
+\w (00:49:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:49:27) setwindow pcb
+\i (00:49:27) padeditdb 
+\i (00:49:30) setwindow form.mini
+\i (00:49:30) FORM mini pad_stack_edit  
+\i (00:49:32) setwindow form.padedit
+\i (00:49:32) FORM padedit layers  
+\i (00:49:39) FORM padedit parameters  
+\i (00:49:41) FORM padedit units Mils 
+\i (00:49:43) fillin yes 
+\w (00:49:43) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:49:44) FORM padedit layers  
+\i (00:49:52) FORM padedit width_ant 90 
+\i (00:49:55) FORM padedit height_ant 50 
+\i (00:49:55) FORM padedit grid row default_internal 
+\i (00:49:58) FORM padedit width_ant 90 
+\i (00:50:01) FORM padedit height_ant 50 
+\i (00:50:01) FORM padedit grid row bottom 
+\i (00:50:03) FORM padedit width_ant 90 
+\i (00:50:06) FORM padedit height_ant 50 
+\i (00:50:06) FORM padedit grid row soldermask_top 
+\i (00:50:11) pse_save 
+\i (00:50:12) fillin yes 
+\i (00:50:16) FORM padedit grid row top 
+\i (00:50:24) FORM padedit parameters  
+\i (00:50:33) pse_update_exit 
+\w (00:50:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:50:42) setwindow pcb
+\i (00:50:42) save_as 
+\t (00:50:42) DRC Required please wait...
+\t (00:50:42) Performing DRC...
+\t (00:50:42) No DRC errors detected.
+\i (00:50:45) fillin "audio_3.dra"
+\t (00:50:46) Symbol 'audio_3.psm' created.
+\i (00:50:46) generaledit 
+\t (00:50:46) last pick:  14.422  0.685
+\w (00:50:46) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:50:57) 3d_viewer 
+\i (00:50:57) setwindow pcb3D
+\i (00:50:57) trapsize 212
+\i (00:50:57) setwindow pcb
+\i (00:50:57) generaledit 
+\i (00:51:12) opencd 'D:/6-PCN-Project/2-3DÉãÏ`ñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/test.brd' 
+\t (00:51:12) Opening existing design...
+\i (00:51:12) trapsize 2534
+\i (00:51:12) trapsize 2464
+\i (00:51:12) trapsize 2534
+\i (00:51:12) trapsize 2563
+\i (00:51:13) trapsize 2563
+\t (00:51:13)     Journal end - Tue Nov 25 14:54:32 2014

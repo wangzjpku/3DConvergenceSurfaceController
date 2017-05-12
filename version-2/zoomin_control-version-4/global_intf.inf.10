@@ -1,0 +1,9 @@
+﻿
+Calculation Type      Exact Result
+
+Pair  Component1  Component2  Vol. of Intf.       
+--------------------------------------------------
+1     CONTROLUP   PET_3P      0.187696 mm^3       
+2     CONTROLUP   PET_3P      0.841892 mm^3       
+3     PET_3P      PET_3P      167.827966 mm^3     
+4     FJM10K      BUTTON2     1.182560 mm^3       

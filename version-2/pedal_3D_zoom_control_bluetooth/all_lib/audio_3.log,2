@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : audio_3.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Nov 19 17:39:41 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/6-PCN-Project/2-3DÉãÏñ»ú»ã¾ÛÃæ¿ØÖÆÆ÷/version-2/pedal_3D_zoom_control_bluetooth/all_lib
+    Name      = audio_3.psm
+    User      = Administrator
+    Machine   = WZJ-PC
+
+
+Create symbol started.
+  WARNING(SPMHA1-264): Sector table is not empty .... use dbdoctor to resolve. 0 SECTOR TABLE	@68092536
+
+ WARNING(SPMHA1-264): Sector table is not empty .... use dbdoctor to resolve. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

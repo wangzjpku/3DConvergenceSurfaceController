@@ -1,0 +1,95 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC ROUTE Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaaaq07128.tmp                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon Jul 21 11:30:47 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+
+ Processing router bit tool file 'ncroutebits.txt' ...
+
+ 40 T03
+ No errors found.
+
+-------------------------------------------------------------
+
+ Pre_processing route path data ...
+
+ WARNING(SPMHMF-301): No start point indicators found on the board.
+ WARNING(SPMHMF-302): Start and end points for route paths will be selected at random.
+
+-------------------------------------------------------------
+
+ Processing route path data ...
+
+ WARNING(SPMHMF-300): No toolcode of size 0.000000 found in 'ncroutebits.txt' ... Defaulting to T01.
+
+ WARNING(SPMHMF-303): First & second point indicator(s) not found.
+ WARNING(SPMHMF-304): Start point and direction selected at random at (1403.560000 0.570000).
+
+ EXPLANATION OF 'START POINT INDICATORS' ...
+
+ The direction in which a route path is cut can be
+ controlled by adding the character '1' at (or near)
+ the vertex that you want to be the start point of the cut.
+ This character (referred to as a 'start point indicator')
+ is added by using the ADD TEXT command.
+
+ In the case of a complete loop, direction can be specified
+ by adding the character '1' at the first point on the path
+ and the character '2' at the second point along the path.
+
+
+-------------------------------------------------------------
+
+ Processing slot hole data ...
+
+ WARNING(SPMHMF-319): No toolcode of a size the same as or smaller than 30.000000 found for an OVAL slot ... Defaulting to T01.
+
+ WARNING(SPMHMF-319): No toolcode of a size the same as or smaller than 30.000000 found for an OVAL slot ... Defaulting to T01.
+
+ WARNING(SPMHMF-319): No toolcode of a size the same as or smaller than 30.000000 found for an OVAL slot ... Defaulting to T01.
+
+ WARNING(SPMHMF-319): No toolcode of a size the same as or smaller than 30.000000 found for an OVAL slot ... Defaulting to T01.
+
+ OVAL      slots routed: 19
+ RECTANGLE slots routed: 0
+
+-------------------------------------------------------------
+
+ NC Route file 'pedal.rou' created ...
+
+-------------------------------------------------------------
+
+ Program completed WITH WARNINGS.
+

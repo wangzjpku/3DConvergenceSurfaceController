@@ -1,0 +1,34 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : test.brd                                      )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Aug 06 14:22:01 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U12 / FJM10K_FJM10K_FJM10K / FJM10K at (4016.81 5086.35)
+         Placed symbol:  U2 / POT_3PIN_PET_3P_POT_3PIN / PET_3P at (4812.17 5283.56)
+         Placed symbol:  U7 / POT_3PIN_PET_3P_POT_3PIN / PET_3P at (5183.17 5283.56)
+         Placed symbol:  U4 / ADUIO_3.5_AUDIO_3_ADUIO_3.5 / AUDIO_3 at (5534.17 5350.06)
+         Placed symbol:  U5 / ADUIO_3.5_AUDIO_3_ADUIO_3.5 / AUDIO_3 at (5865.17 5350.06)
+         Placed symbol:  U13 / ADUIO_3.5_AUDIO_3_ADUIO_3.5 / AUDIO_3 at (6196.17 5350.06)
+         Placed symbol:  U11 / SWITCH4P_BUTOM4P_SWITCH4P / BUTOM4P at (6567.17 5172.06)
+         Placed symbol:  U10 / SWITCH4P_BUTOM4P_SWITCH4P / BUTOM4P at (6978.17 5172.06)
+         Placed symbol:  U9 / SWITCH4P_BUTOM4P_SWITCH4P / BUTOM4P at (7389.17 5172.06)
+         Placed symbol:  U6 / SWITCH4P_BUTOM4P_SWITCH4P / BUTOM4P at (4170.01 5779.06)
+         Placed symbol:  R4 / R_CAPCITA2P_5K / CAPCITA2P at (4522.51 5741.06)
+         Placed symbol:  C55 / CAP NP_CAPCITA2P_104 / CAPCITA2P at (4816.50 5741.06)
+         Placed symbol:  C54 / CAP NP_CAPCITA2P_104 / CAPCITA2P at (5110.49 5741.06)
+         Placed symbol:  C53 / CAP NP_CAPCITA2P_104 / CAPCITA2P at (5404.48 5741.06)
+         Placed symbol:  C52 / CAP NP_CAPCITA2P_104 / CAPCITA2P at (5698.47 5741.06)
+
+
+Placed 15 of 15 applicable (15 total) symbols.
+
+-----------------------------------------------------------------------
+

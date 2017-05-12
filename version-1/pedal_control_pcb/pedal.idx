@@ -1,0 +1,3892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<foundation:EDMDDataSet xmlns:foundation="http://www.prostep.org/ecad-mcad/edmd/2.0/foundation" xmlns:administration="http://www.prostep.org/ecad-mcad/edmd/2.0/administration" xmlns:annotation="http://www.prostep.org/ecad-mcad/edmd/2.0/annotation" xmlns:computational="http://www.prostep.org/ecad-mcad/edmd/2.0/computational" xmlns:d2="http://www.prostep.org/ecad-mcad/edmd/2.0/geometry.d2" xmlns:external="http://www.prostep.org/ecad-mcad/edmd/2.0/external" xmlns:grouping="http://www.prostep.org/ecad-mcad/edmd/2.0/grouping" xmlns:material="http://www.prostep.org/ecad-mcad/edmd/2.0/material" xmlns:pdm="http://www.prostep.org/ecad-mcad/edmd/2.0/pdm" xmlns:property="http://www.prostep.org/ecad-mcad/edmd/2.0/property" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <foundation:ProcessInstruction xsi:type="computational:EDMDProcessInstructionSendInformation"/>
+
+  <foundation:Header>
+    <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+      <property:Key Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>IDX_VERSION</foundation:ObjectName>
+      </property:Key>
+      <property:Value>2.0</property:Value>
+    </foundation:UserProperty>
+    <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+      <property:Key Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>IDX_FILE_TYPE</foundation:ObjectName>
+      </property:Key>
+      <property:Value>BASELINE</property:Value>
+    </foundation:UserProperty>
+    <foundation:UserProperty xsi:type="property:EDMDUserAnyProperty">
+      <property:Key Persistant="true">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>IDX_HISTORY</foundation:ObjectName>
+      </property:Key>
+      <property:Value xmlns:idx="http://www.ptc.com/edmd/1.0/idx">
+        <idx:History>
+          <idx:HistoryRecord index="1">
+            <idx:Login>wzj</idx:Login>
+            <idx:Date>Fri Jul 11 16:16:26 2014</idx:Date>
+            <idx:ToolName>CADENCE_ALLEGRO</idx:ToolName>
+            <idx:ToolRevision>16.6 (P004)</idx:ToolRevision>
+          </idx:HistoryRecord>
+        </idx:History>
+      </property:Value>
+    </foundation:UserProperty>
+    <foundation:CreatorName/>
+    <foundation:CreatorCompany/>
+    <foundation:CreatorSystem>allegro_16.6</foundation:CreatorSystem>
+    <foundation:Description/>
+    <foundation:PostProcessor/>
+    <foundation:PostProcessorVersion/>
+    <foundation:GlobalUnitLength>ITEM_UNIT_LENGTH</foundation:GlobalUnitLength>
+  </foundation:Header>
+
+  <foundation:Body>
+    <foundation:ExternalSource id="EXTERNALSOURCE_1">
+      <foundation:Name>IDX_DESIGN_SUMMARY</foundation:Name>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_FILE</foundation:ObjectName>
+        </property:Key>
+        <property:Value>pedal.brd</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_REV</foundation:ObjectName>
+        </property:Key>
+        <property:Value>2</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_ID</foundation:ObjectName>
+        </property:Key>
+        <property:Value>IDX_DESIGN_CURRENT</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_UNITS</foundation:ObjectName>
+        </property:Key>
+        <property:Value>IDX_DESIGN_SUMMARY_UNITS_MIL</property:Value>
+      </foundation:UserProperty>
+      <external:Location>D:/LayoutPCB/pedal_control_pcb</external:Location>
+    </foundation:ExternalSource>
+    <foundation:System id="SYSTEM_1">
+      <foundation:GlobalName/>
+    </foundation:System>
+    <foundation:Person id="ACTOR_1">
+      <administration:SurName/>
+    </foundation:Person>
+    <foundation:UnitLength id="ITEM_UNIT_LENGTH">
+      <property:UnitName/>
+      <property:Fundamental>mil</property:Fundamental>
+    </foundation:UnitLength>
+    <foundation:CartesianPoint id="POINT_1">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5102.1576</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_2">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4269.7445</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_3">
+      <d2:X>
+        <property:Value>5204.8150</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4240.6022</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_4">
+      <d2:X>
+        <property:Value>5204.8150</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3925.6416</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_5">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3896.4992</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_6">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3165.5590</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_7">
+      <d2:X>
+        <property:Value>6538.5744</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3165.5590</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_8">
+      <d2:X>
+        <property:Value>6538.5744</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5102.1576</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_1">
+      <d2:Point>POINT_1</d2:Point>
+      <d2:Point>POINT_2</d2:Point>
+      <d2:Point>POINT_3</d2:Point>
+      <d2:Point>POINT_4</d2:Point>
+      <d2:Point>POINT_5</d2:Point>
+      <d2:Point>POINT_6</d2:Point>
+      <d2:Point>POINT_7</d2:Point>
+      <d2:Point>POINT_8</d2:Point>
+      <d2:Point>POINT_1</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_1">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.4000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_1</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_1">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_1</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CartesianPoint id="POINT_9">
+      <d2:X>
+        <property:Value>5247.0116</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5028.0037</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_10">
+      <d2:X>
+        <property:Value>5306.0668</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5028.0037</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_1">
+      <d2:Center>POINT_9</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.1104</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_2">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.4000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_1</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_2">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:Inverted>true</pdm:Inverted>
+      <pdm:DefiningShape>CURVESET2D_2</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CartesianPoint id="POINT_11">
+      <d2:X>
+        <property:Value>6428.1140</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5028.0037</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_12">
+      <d2:X>
+        <property:Value>6487.1692</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5028.0037</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_2">
+      <d2:Center>POINT_11</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.1104</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_3">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.4000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_2</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_3">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:Inverted>true</pdm:Inverted>
+      <pdm:DefiningShape>CURVESET2D_3</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CartesianPoint id="POINT_13">
+      <d2:X>
+        <property:Value>6428.1140</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3256.3502</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_14">
+      <d2:X>
+        <property:Value>6487.1692</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3256.3502</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_3">
+      <d2:Center>POINT_13</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.1104</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_4">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.4000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_3</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_4">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:Inverted>true</pdm:Inverted>
+      <pdm:DefiningShape>CURVESET2D_4</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CartesianPoint id="POINT_15">
+      <d2:X>
+        <property:Value>5247.0116</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3256.3502</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_16">
+      <d2:X>
+        <property:Value>5306.0668</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3256.3502</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_4">
+      <d2:Center>POINT_15</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.1104</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_5">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.4000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_4</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_5">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:Inverted>true</pdm:Inverted>
+      <pdm:DefiningShape>CURVESET2D_5</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:Stratum id="OUTLINE_1">
+      <pdm:ShapeElement>SHAPEELEMENT_1</pdm:ShapeElement>
+      <pdm:ShapeElement>SHAPEELEMENT_2</pdm:ShapeElement>
+      <pdm:ShapeElement>SHAPEELEMENT_3</pdm:ShapeElement>
+      <pdm:ShapeElement>SHAPEELEMENT_4</pdm:ShapeElement>
+      <pdm:ShapeElement>SHAPEELEMENT_5</pdm:ShapeElement>
+      <pdm:StratumType>DesignLayerStratum</pdm:StratumType>
+      <pdm:StratumSurfaceDesignation>PrimarySurface</pdm:StratumSurfaceDesignation>
+    </foundation:Stratum>
+    <foundation:Item id="ITEM_1">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_1</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>OUTLINE_1</pdm:Shape>
+    </foundation:Item>
+    <foundation:System id="SYSTEM_2">
+      <foundation:GlobalName>ALG</foundation:GlobalName>
+    </foundation:System>
+    <foundation:Item id="ITEM_2">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_2</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_1">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>THICKNESS</foundation:ObjectName>
+          </property:Key>
+          <property:Value>10.4000</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>BoardOutline</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Item>ITEM_1</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_17">
+      <d2:X>
+        <property:Value>-118.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-327.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_18">
+      <d2:X>
+        <property:Value>-118.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>327.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_19">
+      <d2:X>
+        <property:Value>118.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>327.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_20">
+      <d2:X>
+        <property:Value>118.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-327.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_2">
+      <d2:Point>POINT_17</d2:Point>
+      <d2:Point>POINT_18</d2:Point>
+      <d2:Point>POINT_19</d2:Point>
+      <d2:Point>POINT_20</d2:Point>
+      <d2:Point>POINT_17</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_6">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>200.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_2</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_6">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_6</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:AssemblyComponent id="COMP_1">
+      <pdm:ShapeElement>SHAPEELEMENT_6</pdm:ShapeElement>
+      <pdm:AssemblyComponentType>Physical</pdm:AssemblyComponentType>
+    </foundation:AssemblyComponent>
+    <foundation:Item id="SYMBOL_1">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_3</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:PackageName Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>SWITCH_3P</foundation:ObjectName>
+      </pdm:PackageName>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>PARTNUM</foundation:ObjectName>
+        </property:Key>
+        <property:Value>SWITCH_3B_SWITCH_3P_SWITCH_3B</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>HEIGHT</foundation:ObjectName>
+        </property:Key>
+        <property:Value>200.0000</property:Value>
+      </foundation:UserProperty>
+      <pdm:Shape>COMP_1</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_3">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_4</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_2">
+        <foundation:Name>U1</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp1</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5800.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3350.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_1</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_21">
+      <d2:X>
+        <property:Value>-178.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-228.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_22">
+      <d2:X>
+        <property:Value>-178.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>228.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_23">
+      <d2:X>
+        <property:Value>178.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>228.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_24">
+      <d2:X>
+        <property:Value>178.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-228.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_3">
+      <d2:Point>POINT_21</d2:Point>
+      <d2:Point>POINT_22</d2:Point>
+      <d2:Point>POINT_23</d2:Point>
+      <d2:Point>POINT_24</d2:Point>
+      <d2:Point>POINT_21</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_7">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>790.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_3</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_7">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_7</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:AssemblyComponent id="COMP_2">
+      <pdm:ShapeElement>SHAPEELEMENT_7</pdm:ShapeElement>
+      <pdm:AssemblyComponentType>Physical</pdm:AssemblyComponentType>
+    </foundation:AssemblyComponent>
+    <foundation:Item id="SYMBOL_2">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_5</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:PackageName Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>PET_3P</foundation:ObjectName>
+      </pdm:PackageName>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>PARTNUM</foundation:ObjectName>
+        </property:Key>
+        <property:Value>POT_3PIN_PET_3P_POT_3PIN</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>HEIGHT</foundation:ObjectName>
+        </property:Key>
+        <property:Value>790.0000</property:Value>
+      </foundation:UserProperty>
+      <pdm:Shape>COMP_2</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_4">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_6</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_3">
+        <foundation:Name>U2</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp2</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5850.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4850.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_2</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_25">
+      <d2:X>
+        <property:Value>-158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_26">
+      <d2:X>
+        <property:Value>-158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_27">
+      <d2:X>
+        <property:Value>158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_28">
+      <d2:X>
+        <property:Value>158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_4">
+      <d2:Point>POINT_25</d2:Point>
+      <d2:Point>POINT_26</d2:Point>
+      <d2:Point>POINT_27</d2:Point>
+      <d2:Point>POINT_28</d2:Point>
+      <d2:Point>POINT_25</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_8">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>514.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_4</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_8">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_8</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:AssemblyComponent id="COMP_3">
+      <pdm:ShapeElement>SHAPEELEMENT_8</pdm:ShapeElement>
+      <pdm:AssemblyComponentType>Physical</pdm:AssemblyComponentType>
+    </foundation:AssemblyComponent>
+    <foundation:Item id="SYMBOL_3">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_7</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:PackageName Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>AUDIO_3</foundation:ObjectName>
+      </pdm:PackageName>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>PARTNUM</foundation:ObjectName>
+        </property:Key>
+        <property:Value>ADUIO_3_5_AUDIO_3_ADUIO_3_5</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>HEIGHT</foundation:ObjectName>
+        </property:Key>
+        <property:Value>514.0000</property:Value>
+      </foundation:UserProperty>
+      <pdm:Shape>COMP_3</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_5">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_8</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_4">
+        <foundation:Name>U3</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp3</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6120.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4100.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_3</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_29">
+      <d2:X>
+        <property:Value>-158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_30">
+      <d2:X>
+        <property:Value>-158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_31">
+      <d2:X>
+        <property:Value>158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_32">
+      <d2:X>
+        <property:Value>158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_5">
+      <d2:Point>POINT_29</d2:Point>
+      <d2:Point>POINT_30</d2:Point>
+      <d2:Point>POINT_31</d2:Point>
+      <d2:Point>POINT_32</d2:Point>
+      <d2:Point>POINT_29</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_9">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>514.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_5</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_9">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_9</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:AssemblyComponent id="COMP_4">
+      <pdm:ShapeElement>SHAPEELEMENT_9</pdm:ShapeElement>
+      <pdm:AssemblyComponentType>Physical</pdm:AssemblyComponentType>
+    </foundation:AssemblyComponent>
+    <foundation:Item id="SYMBOL_4">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_9</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:PackageName Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>AUDIO_3</foundation:ObjectName>
+      </pdm:PackageName>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>PARTNUM</foundation:ObjectName>
+        </property:Key>
+        <property:Value>ADUIO_3_5_AUDIO_3_ADUIO_3_5</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>HEIGHT</foundation:ObjectName>
+        </property:Key>
+        <property:Value>514.0000</property:Value>
+      </foundation:UserProperty>
+      <pdm:Shape>COMP_4</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_6">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_10</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_5">
+        <foundation:Name>U4</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp4</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6120.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3700.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_4</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_33">
+      <d2:X>
+        <property:Value>-158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_34">
+      <d2:X>
+        <property:Value>-158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_35">
+      <d2:X>
+        <property:Value>158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_36">
+      <d2:X>
+        <property:Value>158.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-296.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_6">
+      <d2:Point>POINT_33</d2:Point>
+      <d2:Point>POINT_34</d2:Point>
+      <d2:Point>POINT_35</d2:Point>
+      <d2:Point>POINT_36</d2:Point>
+      <d2:Point>POINT_33</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_10">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>514.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_6</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_10">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_10</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:AssemblyComponent id="COMP_5">
+      <pdm:ShapeElement>SHAPEELEMENT_10</pdm:ShapeElement>
+      <pdm:AssemblyComponentType>Physical</pdm:AssemblyComponentType>
+    </foundation:AssemblyComponent>
+    <foundation:Item id="SYMBOL_5">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_11</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:PackageName Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>AUDIO_3</foundation:ObjectName>
+      </pdm:PackageName>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>PARTNUM</foundation:ObjectName>
+        </property:Key>
+        <property:Value>ADUIO_3_5_AUDIO_3_ADUIO_3_5</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>HEIGHT</foundation:ObjectName>
+        </property:Key>
+        <property:Value>514.0000</property:Value>
+      </foundation:UserProperty>
+      <pdm:Shape>COMP_5</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_7">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_12</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_6">
+        <foundation:Name>U5</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp5</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6110.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4500.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_5</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_37">
+      <d2:X>
+        <property:Value>-198.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-118.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_38">
+      <d2:X>
+        <property:Value>-198.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>118.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_39">
+      <d2:X>
+        <property:Value>198.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>118.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_40">
+      <d2:X>
+        <property:Value>198.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-118.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_7">
+      <d2:Point>POINT_37</d2:Point>
+      <d2:Point>POINT_38</d2:Point>
+      <d2:Point>POINT_39</d2:Point>
+      <d2:Point>POINT_40</d2:Point>
+      <d2:Point>POINT_37</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_11">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>237.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_7</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_11">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_11</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:AssemblyComponent id="COMP_6">
+      <pdm:ShapeElement>SHAPEELEMENT_11</pdm:ShapeElement>
+      <pdm:AssemblyComponentType>Physical</pdm:AssemblyComponentType>
+    </foundation:AssemblyComponent>
+    <foundation:Item id="SYMBOL_6">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_13</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:PackageName Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>BUTOM4P</foundation:ObjectName>
+      </pdm:PackageName>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>PARTNUM</foundation:ObjectName>
+        </property:Key>
+        <property:Value>SWITCH4P_BUTOM4P_SWITCH4P</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>HEIGHT</foundation:ObjectName>
+        </property:Key>
+        <property:Value>237.0000</property:Value>
+      </foundation:UserProperty>
+      <pdm:Shape>COMP_6</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_8">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_14</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_7">
+        <foundation:Name>U6</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp6</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5660.5000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4100.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_6</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_41">
+      <d2:X>
+        <property:Value>-138.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-80.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_42">
+      <d2:X>
+        <property:Value>-138.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>80.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_43">
+      <d2:X>
+        <property:Value>138.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>80.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_44">
+      <d2:X>
+        <property:Value>138.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>-80.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_8">
+      <d2:Point>POINT_41</d2:Point>
+      <d2:Point>POINT_42</d2:Point>
+      <d2:Point>POINT_43</d2:Point>
+      <d2:Point>POINT_44</d2:Point>
+      <d2:Point>POINT_41</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_12">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>395.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_8</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_12">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_12</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:AssemblyComponent id="COMP_7">
+      <pdm:ShapeElement>SHAPEELEMENT_12</pdm:ShapeElement>
+      <pdm:AssemblyComponentType>Physical</pdm:AssemblyComponentType>
+    </foundation:AssemblyComponent>
+    <foundation:Item id="SYMBOL_7">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_15</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:PackageName Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>CAPCITA2P</foundation:ObjectName>
+      </pdm:PackageName>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>PARTNUM</foundation:ObjectName>
+        </property:Key>
+        <property:Value>CAP NP_CAPCITA2P_104</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>HEIGHT</foundation:ObjectName>
+        </property:Key>
+        <property:Value>395.0000</property:Value>
+      </foundation:UserProperty>
+      <pdm:Shape>COMP_7</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_9">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_16</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_8">
+        <foundation:Name>C52</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp7</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5400.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4500.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_7</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:Item id="ITEM_10">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_17</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_9">
+        <foundation:Name>C53</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp8</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5400.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3700.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_7</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:Item id="ITEM_11">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_18</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_10">
+        <foundation:Name>C54</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp9</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5400.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4750.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_7</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:Item id="ITEM_12">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_19</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_11">
+        <foundation:Name>C55</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>PLACED</foundation:ObjectName>
+          </property:Key>
+          <property:Value>true</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Comp10</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5350.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4100.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>SYMBOL_7</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_45">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5102.1576</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_46">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4269.7445</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_47">
+      <d2:X>
+        <property:Value>5204.8150</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4240.6022</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_48">
+      <d2:X>
+        <property:Value>5204.8150</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3925.6416</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_49">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3896.4992</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_50">
+      <d2:X>
+        <property:Value>5154.3390</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3165.5590</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_51">
+      <d2:X>
+        <property:Value>6538.5744</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3165.5590</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_52">
+      <d2:X>
+        <property:Value>6538.5744</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>5102.1576</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="POLYLINE_9">
+      <d2:Point>POINT_45</d2:Point>
+      <d2:Point>POINT_46</d2:Point>
+      <d2:Point>POINT_47</d2:Point>
+      <d2:Point>POINT_48</d2:Point>
+      <d2:Point>POINT_49</d2:Point>
+      <d2:Point>POINT_50</d2:Point>
+      <d2:Point>POINT_51</d2:Point>
+      <d2:Point>POINT_52</d2:Point>
+      <d2:Point>POINT_45</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="CURVESET2D_13">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>0.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>POLYLINE_9</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_13">
+      <pdm:ShapeElementType>NonFeatureShapeElement</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_13</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:KeepIn id="OUTLINE_2">
+      <pdm:ShapeElement>SHAPEELEMENT_13</pdm:ShapeElement>
+      <pdm:Purpose>Route</pdm:Purpose>
+    </foundation:KeepIn>
+    <foundation:Item id="ITEM_13">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_20</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>OUTLINE_2</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_14">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_21</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_12">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>SIDE</foundation:ObjectName>
+          </property:Key>
+          <property:Value>ALL</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>RouteKI</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Item>ITEM_13</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_53">
+      <d2:X>
+        <property:Value>0.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>0.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_54">
+      <d2:X>
+        <property:Value>19.5000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>0.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_5">
+      <d2:Center>POINT_53</d2:Center>
+      <d2:Diameter>
+        <property:Value>39.0000</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_14">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>0.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_5</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_14">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_1">
+      <pdm:ShapeElement>SHAPEELEMENT_14</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_15">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_22</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_1</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_16">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_23</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_13">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole1</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5602.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3310.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_15</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_15">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_2">
+      <pdm:ShapeElement>SHAPEELEMENT_15</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_17">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_24</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_2</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_18">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_25</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_14">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole2</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5800.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3310.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_17</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_16">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_3">
+      <pdm:ShapeElement>SHAPEELEMENT_16</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_19">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_26</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_3</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_20">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_27</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_15">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole3</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5899.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3310.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_19</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_17">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_4">
+      <pdm:ShapeElement>SHAPEELEMENT_17</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_21">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_28</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_4</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_22">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_29</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_16">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole4</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5998.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3310.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_21</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_18">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_5">
+      <pdm:ShapeElement>SHAPEELEMENT_18</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_23">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_30</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_5</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_24">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_31</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_17">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole5</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6096.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3232.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_23</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_19">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_6">
+      <pdm:ShapeElement>SHAPEELEMENT_19</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_25">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_32</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_6</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_26">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_33</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_18">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole6</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5998.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3390.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_25</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_20">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_7">
+      <pdm:ShapeElement>SHAPEELEMENT_20</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_27">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_34</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_7</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_28">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_35</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_19">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole7</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5899.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3390.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_27</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_21">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_8">
+      <pdm:ShapeElement>SHAPEELEMENT_21</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_29">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_36</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_8</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_30">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_37</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_20">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole8</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5800.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3390.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_29</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_22">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_9">
+      <pdm:ShapeElement>SHAPEELEMENT_22</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_31">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_38</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_9</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_32">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_39</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_21">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole9</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5602.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3390.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_31</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_23">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_10">
+      <pdm:ShapeElement>SHAPEELEMENT_23</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_33">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_40</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_10</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_34">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_41</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_22">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U1</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole10</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5504.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3467.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_33</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_24">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_11">
+      <pdm:ShapeElement>SHAPEELEMENT_24</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_35">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_42</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_11</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_36">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_43</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_23">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U2</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole11</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5652.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4732.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_35</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_25">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_12">
+      <pdm:ShapeElement>SHAPEELEMENT_25</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_37">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_44</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_12</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_38">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_45</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_24">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U2</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole12</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5850.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4732.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_37</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_26">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_13">
+      <pdm:ShapeElement>SHAPEELEMENT_26</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_39">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_46</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_13</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_40">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_47</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_25">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U2</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole13</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6048.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4732.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_39</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_27">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_14">
+      <pdm:ShapeElement>SHAPEELEMENT_27</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_41">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_48</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_14</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_42">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_49</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_26">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U2</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole14</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6048.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4968.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_41</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_28">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_15">
+      <pdm:ShapeElement>SHAPEELEMENT_28</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_43">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_50</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_15</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_44">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_51</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_27">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U2</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole15</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>-1.000000000000</pdm:xy>
+          <pdm:yx>1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5652.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4968.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_43</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CartesianPoint id="POINT_55">
+      <d2:X>
+        <property:Value>0.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>0.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_56">
+      <d2:X>
+        <property:Value>15.0000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>0.0000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_6">
+      <d2:Center>POINT_55</d2:Center>
+      <d2:Diameter>
+        <property:Value>30.0000</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_15">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.0000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>0.0000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_6</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_29">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_16">
+      <pdm:ShapeElement>SHAPEELEMENT_29</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_45">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_52</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_16</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_46">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_53</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_28">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U3</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole16</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6357.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4140.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_45</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_30">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_17">
+      <pdm:ShapeElement>SHAPEELEMENT_30</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_47">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_54</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_17</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_48">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_55</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_29">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U3</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole17</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6120.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4140.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_47</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_31">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_18">
+      <pdm:ShapeElement>SHAPEELEMENT_31</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_49">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_56</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_18</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_50">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_57</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_30">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U3</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole18</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5883.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4140.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_49</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_32">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_19">
+      <pdm:ShapeElement>SHAPEELEMENT_32</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_51">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_58</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_19</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_52">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_59</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_31">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U3</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole19</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6041.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4062.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_51</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_33">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_20">
+      <pdm:ShapeElement>SHAPEELEMENT_33</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_53">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_60</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_20</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_54">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_61</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_32">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U3</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole20</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6278.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4062.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_53</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_34">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_21">
+      <pdm:ShapeElement>SHAPEELEMENT_34</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_55">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_62</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_21</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_56">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_63</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_33">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U4</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole21</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6357.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3740.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_55</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_35">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_22">
+      <pdm:ShapeElement>SHAPEELEMENT_35</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_57">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_64</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_22</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_58">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_65</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_34">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U4</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole22</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6120.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3740.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_57</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_36">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_23">
+      <pdm:ShapeElement>SHAPEELEMENT_36</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_59">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_66</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_23</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_60">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_67</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_35">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U4</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole23</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5883.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3740.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_59</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_37">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_24">
+      <pdm:ShapeElement>SHAPEELEMENT_37</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_61">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_68</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_24</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_62">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_69</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_36">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U4</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole24</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6041.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3662.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_61</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_38">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_25">
+      <pdm:ShapeElement>SHAPEELEMENT_38</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_63">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_70</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_25</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_64">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_71</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_37">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U4</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole25</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6278.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3662.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_63</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_39">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_26">
+      <pdm:ShapeElement>SHAPEELEMENT_39</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_65">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_72</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_26</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_66">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_73</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_38">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U5</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole26</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6347.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4540.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_65</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_40">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_27">
+      <pdm:ShapeElement>SHAPEELEMENT_40</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_67">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_74</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_27</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_68">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_75</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_39">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U5</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole27</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6110.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4540.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_67</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_41">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_28">
+      <pdm:ShapeElement>SHAPEELEMENT_41</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_69">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_76</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_28</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_70">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_77</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_40">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U5</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole28</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5873.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4540.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_69</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_42">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_29">
+      <pdm:ShapeElement>SHAPEELEMENT_42</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_71">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_78</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_29</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_72">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_79</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_41">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U5</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole29</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6031.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4462.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_71</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_43">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_15</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_30">
+      <pdm:ShapeElement>SHAPEELEMENT_43</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_73">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_80</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_30</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_74">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_81</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_42">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>U5</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole30</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>6268.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4462.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_73</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_44">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_31">
+      <pdm:ShapeElement>SHAPEELEMENT_44</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_75">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_82</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_31</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_76">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_83</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_43">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C52</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole31</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5292.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4500.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_75</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_45">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_32">
+      <pdm:ShapeElement>SHAPEELEMENT_45</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_77">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_84</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_32</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_78">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_85</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_44">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C52</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole32</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5508.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4500.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_77</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_46">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_33">
+      <pdm:ShapeElement>SHAPEELEMENT_46</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_79">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_86</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_33</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_80">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_87</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_45">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C53</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole33</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5292.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3700.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_79</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_47">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_34">
+      <pdm:ShapeElement>SHAPEELEMENT_47</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_81">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_88</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_34</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_82">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_89</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_46">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C53</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole34</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5508.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3700.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_81</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_48">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_35">
+      <pdm:ShapeElement>SHAPEELEMENT_48</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_83">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_90</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_35</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_84">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_91</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_47">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C54</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole35</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5292.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4750.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_83</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_49">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_36">
+      <pdm:ShapeElement>SHAPEELEMENT_49</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_85">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_92</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_36</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_86">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_93</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_48">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C54</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole36</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>1.000000000000</pdm:xx>
+          <pdm:xy>0.000000000000</pdm:xy>
+          <pdm:yx>0.000000000000</pdm:yx>
+          <pdm:yy>1.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5508.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4750.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_85</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_50">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_37">
+      <pdm:ShapeElement>SHAPEELEMENT_50</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_87">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_94</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_37</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_88">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_95</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_49">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C55</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole37</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5350.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>4208.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_87</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:ShapeElement id="SHAPEELEMENT_51">
+      <pdm:ShapeElementType>ComponentTerminal</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_14</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:InterStratumFeature id="HOLE_38">
+      <pdm:ShapeElement>SHAPEELEMENT_51</pdm:ShapeElement>
+      <pdm:InterStratumFeatureType>PlatedCutout</pdm:InterStratumFeatureType>
+    </foundation:InterStratumFeature>
+    <foundation:Item id="ITEM_89">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_96</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>HOLE_38</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="ITEM_90">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_97</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_50">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>ICMIDX_ATTRIBUTE_HOLE_ASSOCIATED_PART</foundation:ObjectName>
+          </property:Key>
+          <property:Value>C55</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>Hole38</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Transformation>
+          <pdm:TransformationType>2d</pdm:TransformationType>
+          <pdm:xx>0.000000000000</pdm:xx>
+          <pdm:xy>1.000000000000</pdm:xy>
+          <pdm:yx>-1.000000000000</pdm:yx>
+          <pdm:yy>0.000000000000</pdm:yy>
+          <pdm:tx>
+            <property:Value>5350.0000</property:Value>
+          </pdm:tx>
+          <pdm:ty>
+            <property:Value>3992.0000</property:Value>
+          </pdm:ty>
+        </pdm:Transformation>
+        <pdm:Item>ITEM_89</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:Group id="GROUP_1">
+      <grouping:Related>ITEM_3</grouping:Related>
+      <grouping:Related>ITEM_16</grouping:Related>
+      <grouping:Related>ITEM_18</grouping:Related>
+      <grouping:Related>ITEM_20</grouping:Related>
+      <grouping:Related>ITEM_22</grouping:Related>
+      <grouping:Related>ITEM_24</grouping:Related>
+      <grouping:Related>ITEM_26</grouping:Related>
+      <grouping:Related>ITEM_28</grouping:Related>
+      <grouping:Related>ITEM_30</grouping:Related>
+      <grouping:Related>ITEM_32</grouping:Related>
+      <grouping:Related>ITEM_34</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_2">
+      <grouping:Related>ITEM_4</grouping:Related>
+      <grouping:Related>ITEM_36</grouping:Related>
+      <grouping:Related>ITEM_38</grouping:Related>
+      <grouping:Related>ITEM_40</grouping:Related>
+      <grouping:Related>ITEM_42</grouping:Related>
+      <grouping:Related>ITEM_44</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_3">
+      <grouping:Related>ITEM_5</grouping:Related>
+      <grouping:Related>ITEM_46</grouping:Related>
+      <grouping:Related>ITEM_48</grouping:Related>
+      <grouping:Related>ITEM_50</grouping:Related>
+      <grouping:Related>ITEM_52</grouping:Related>
+      <grouping:Related>ITEM_54</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_4">
+      <grouping:Related>ITEM_6</grouping:Related>
+      <grouping:Related>ITEM_56</grouping:Related>
+      <grouping:Related>ITEM_58</grouping:Related>
+      <grouping:Related>ITEM_60</grouping:Related>
+      <grouping:Related>ITEM_62</grouping:Related>
+      <grouping:Related>ITEM_64</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_5">
+      <grouping:Related>ITEM_7</grouping:Related>
+      <grouping:Related>ITEM_66</grouping:Related>
+      <grouping:Related>ITEM_68</grouping:Related>
+      <grouping:Related>ITEM_70</grouping:Related>
+      <grouping:Related>ITEM_72</grouping:Related>
+      <grouping:Related>ITEM_74</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_6">
+      <grouping:Related>ITEM_9</grouping:Related>
+      <grouping:Related>ITEM_76</grouping:Related>
+      <grouping:Related>ITEM_78</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_7">
+      <grouping:Related>ITEM_10</grouping:Related>
+      <grouping:Related>ITEM_80</grouping:Related>
+      <grouping:Related>ITEM_82</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_8">
+      <grouping:Related>ITEM_11</grouping:Related>
+      <grouping:Related>ITEM_84</grouping:Related>
+      <grouping:Related>ITEM_86</grouping:Related>
+    </foundation:Group>
+    <foundation:Group id="GROUP_9">
+      <grouping:Related>ITEM_12</grouping:Related>
+      <grouping:Related>ITEM_88</grouping:Related>
+      <grouping:Related>ITEM_90</grouping:Related>
+    </foundation:Group>
+  </foundation:Body>
+
+</foundation:EDMDDataSet>
